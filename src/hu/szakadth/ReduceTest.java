@@ -29,7 +29,10 @@ public class ReduceTest {
             add(10);
             add(8);
         }};
-        sum = intsWithNull.stream().filter(Objects::nonNull).reduce(0,Integer::sum);
+        sum = intsWithNull.stream()
+                .filter(Objects::nonNull)
+                .filter(p -> p > 5)
+                .filter(p -> p < 10).reduce(0,Integer::sum);
         System.out.println(sum);
 
     }
