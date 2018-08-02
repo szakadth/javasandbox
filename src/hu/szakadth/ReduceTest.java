@@ -21,6 +21,8 @@ public class ReduceTest {
         int[] randomintArray = new Random().ints(10000000, 0, 200).toArray();
         Double avg  = IntStream.of(randomintArray).average().getAsDouble();
         System.out.println(avg);
+        Integer max  = IntStream.of(randomintArray).reduce(0, Integer::max);
+        System.out.println(max);
 
 
         ArrayList<Integer> intsWithNull = new ArrayList<Integer> () {{
@@ -35,5 +37,9 @@ public class ReduceTest {
                 .filter(p -> p < 10).reduce(0,Integer::sum);
         System.out.println(sum);
 
-    }
+        intsWithNull.stream().forEach(p -> System.out.println("almafa"));
+
+        List<String> emptyList = Collections.EMPTY_LIST;
+        emptyList.stream().forEach(p -> System.out.println("banánfa"));
+   }
 }

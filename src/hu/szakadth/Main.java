@@ -1,6 +1,8 @@
 package hu.szakadth;
 
 import hu.szakadth.exception.RException;
+import hu.szakadth.r.RCallerExecutor;
+import hu.szakadth.r.RServeExecutor;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -64,11 +66,11 @@ public class Main {
 
 
             String frequency = "1600";
-            RExecutor executor = new RExecutor();
+            IRExecutor executor = new RCallerExecutor();
             double[] result = executor.evaluate("library(mFilter)")
                     .assign("input_data", csv)
                     .evaluate("hp_output <- hpfilter(input_data, freq=" + frequency + ")")
-                    .evaluate("hp_output$cycle").getResult().asDoubleArray();
+                    .evaluate("hp_output$cycle").getResultAsDoubleArray();
 
             count.set(0);
             DoubleStream.of(result).boxed().forEach(v -> {
