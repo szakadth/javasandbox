@@ -28,18 +28,21 @@ public class IRRCalculator {
 
     public void test() {
         Random random = new Random();
-        Supplier<Double> supplier = () -> new Double(random.nextInt(2000) + 2000);
-        ArrayList<Double> cfArray = Stream.generate(supplier).limit(MAX_ITERATION).parallel().collect(Collectors.toCollection(ArrayList::new));
-        double[] cfs = (double[])cfArray.stream().mapToDouble(p->p).toArray();
-        double[] times = IntStream.range(1, MAX_ITERATION+1).mapToDouble(p -> new Double(p)).toArray();
+//        Supplier<Double> supplier = () -> new Double(random.nextInt(2000) + 2000);
+//        ArrayList<Double> cfArray = Stream.generate(supplier).limit(MAX_ITERATION).parallel().collect(Collectors.toCollection(ArrayList::new));
+//        double[] cfs = (double[])cfArray.stream().mapToDouble(p->p).toArray();
+//        double[] times = IntStream.range(1, MAX_ITERATION+1).mapToDouble(p -> new Double(p)).toArray();
         try {
-            IRExecutor rExecutor = new RCallerExecutor();
+            double[] cfs = {735.679612d, 1547.330097d, 1545.38835d};
+            double[] times = {1d,2d,3d};
+
+                IRExecutor rExecutor = new RCallerExecutor();
 
             double result = rExecutor
                     .evaluate("library(FinancialMath)")
                     .assign("cfs", cfs)
                     .assign("times", times)
-                    .evaluate("cf0 <- 4000")
+                    .evaluate("cf0 <- 7000.000000")
                     .evaluate("result <- IRR(cf0,cfs,times)")
                     .evaluate("result * 100")
                     .getResultAsDouble();

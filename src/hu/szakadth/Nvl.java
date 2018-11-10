@@ -1,6 +1,7 @@
 package hu.szakadth;
 
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 /**
@@ -62,10 +63,17 @@ public class Nvl {
         System.out.println(Nvl.<String>nvl("egy", "ketto", null));
         Nvl test = new Nvl();
         test.nullSafeChainTest();
+        test.anyNullTest();
+
     }
 
-    private static<T> T nvl (T... args) {
-        return Stream.of(args).filter(Objects::nonNull).findFirst().orElse(null);
+    private static<T> T nvl (T first, T second, T... args) {
+        return Stream.concat(
+            Stream.of(first,second),
+            Stream.of(getValues((T[]) args)))
+            .filter(Objects::nonNull)
+            .findFirst()
+            .orElse(null);
     }
 
     public void nullSafeChainTest () {
@@ -86,5 +94,73 @@ public class Nvl {
         }
     }
 
+    public void anyNullTest () {
+        Double d1 = 12.3d;
+        String d2 = "3.4d";
+        Double d3 = 12.3d;
+
+        if (anyNull(d1, d2, d3)) {
+            System.out.println("1: is-null");
+
+        } else {
+            System.out.println("1: no-null");
+        }
+
+        if (anyNull(d1)) {
+            System.out.println("2: is-null");
+
+        } else {
+            System.out.println("2: no-null");
+        }
+
+        if (anyNull(null, "alma", Boolean.TRUE)) {
+            System.out.println("3: is-null");
+
+        } else {
+            System.out.println("3: no-null");
+        }
+        if (anyNull(null, null)) {
+            System.out.println("3: is-null");
+
+        } else {
+            System.out.println("3: no-null");
+        }
+
+    }
+
+    public static<T> boolean anyNull(T first, T... args ) {
+        return any(Objects::isNull, first, args);
+    }
+
+    public static<T> boolean allNull(T first, T... args ) {
+        return all(Objects::isNull, first, args);
+    }
+
+    public static<T> boolean allNonNull(T first, T... args ) {
+        return all(Objects::nonNull, args);
+    }
+
+    public static<T> boolean anyNonNull(T first, T... args ) {
+        return any(Objects::nonNull, first, args);
+    }
+
+    public static<T> boolean any (Predicate<T> predicate, T first, T... args) {
+        return Stream.concat(
+            Stream.of(first),
+            Stream.of(getValues(args)))
+            .anyMatch(predicate);
+    }
+
+
+    public static<T> boolean all (Predicate<T> predicate, T first, T... args) {
+        return Stream.concat(
+            Stream.of(first),
+            Stream.of(getValues((T[]) args)))
+            .allMatch(predicate);
+    }
+
+    private static <T> T[] getValues( T[] args ) {
+        return Optional.ofNullable(args).orElse((T[]) new Object[]{});
+    }
 
 }

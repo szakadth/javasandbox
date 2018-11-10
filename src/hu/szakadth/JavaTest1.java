@@ -7,11 +7,16 @@ import java.util.stream.IntStream;
  */
 public class JavaTest1 {
     public static void main (String... arg) {
-        StringBuilder sb = IntStream.iterate(0, x->(x+1)%26)
-                .mapToObj(x -> new StringBuilder("" + (char)(x+'A')))
+
+
+        StringBuilder sb = IntStream.iterate(0, x->(x+1)%32)
+                .mapToObj(x -> new StringBuilder("" + (char)(x)))
 //                .parallel()
-                .limit(52)
-                .collect(() -> new StringBuilder(), (x,y) -> y.append(x), (x,y) -> y.append(x));
+                .limit(32)
+                .sequential()
+                .collect(() -> new StringBuilder(), (x,y) -> x.append(y), (x,y) -> {
+                    System.out.println("qlq");
+                });
         System.out.println(sb);
 
 

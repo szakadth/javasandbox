@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/com/loxon/fw/rt/addons/addons-common-api/1.26-SNAPSHOT/addons-common-api-1.26-SNAPSHOT-sources.jar!/com/loxon/fw/rt/addons/common/utils/DateUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IP_PROD/installer/build-scripts/release.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/calculationposting/GLPostingAlg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/staging/finalizer/OffBalanceDealCreationFinalizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/liquibase.xsd">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/regexp.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/MessageFormatterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/CalendarTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/Fibonacci.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/ForEachTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/IRRCalculator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/IfTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/IntervallTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/JavaTest1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/MaxTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/Misc.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/NullCheck.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/NumberTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/Nvl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/Question.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/ReduceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/StreamTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/date/DateTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/math/CalculatePI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/math/CalculatePiDigit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/math/GCD.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/math/GDC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/math/RegressionTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/r/RCallerExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/r/RCallerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/test/LambdaExceptionUtilTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/util/ConsumerCheckException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/util/ExceptionUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/hu/szakadth/util/LambdaExceptionUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/teszt_repos/2.5/IP_PROD/installer/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/teszt_repos/2.5/IP_PROD/installer/src/main/assembly/assembly.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/api/src/main/java/com/loxon/fw/rt/ifrseximro/cdi/produces/loader/calculationversion/CalculationVersionLoaderI.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/api/src/main/java/com/loxon/fw/rt/ifrseximro/cdi/produces/loader/calculationversion/CalculationVersionLoaderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/batch/cdi/algprovider/AlgProviderFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/batch/cdi/algprovider/EmptyAlgProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/CohortPDMacrofactorCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/CohortPDOverride.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/ExpectedRSquareCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/MarginalYearlyPDCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/PDCalculationBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/PDMatrixCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/PdCohortBaseCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/ResMacroValueCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modelcalculation/WeightedAverageYearlyMacrofactorCalculation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/modeldatagathering/CohortPdModelDataGathering.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/pdcalculation/LgdAssignmentOnCohortLgdModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/pdcalculation/LgdPdAssignmentBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/provisioncalculation/CBJECLMovementReportCalc.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/provisioncalculation/CBJECLMovementReportCalcProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/algimpl/calculation/provisioncalculation/model/CBJECLMovementReportCalcProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/entity/calculationversion/algimpl/CalculationPostingJobInvoker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/entity/calculationversion/algimpl/OverrideCopyResultAlgBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/entity/paramifrs/algimpl/ParCohortBasedLgdMatrixGenerateTableAlg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/entity/paramifrs/algimpl/ParCohortBasedPdMatrixGenerateTableAlg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/r/RExecutorBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/r/impl/RCallerExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ifrseximro/utils/LambdaExceptionUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/calculation/calculationposting/CalculationPostingJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/calculation/modelcalculation/ModelCalculationIFRS9Job.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/calculation/modelcalculation/algprovider/PDModelCalculationProviderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/calculation/modelcalculation/algprovider/qualifier/PDModelCalculationProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/staging/finalizer/OffBalanceDealCreationFinalizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/batch/test/r/RIntegrationTestJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/importcheck/impl/NHBHUImportCheckImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/calculation/provisioncalculation/ProvisionCalcReportJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/calculation/provisioncalculation/ProvisionCalculationJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/calculation/provisioncalculation/algprovider/CBJECLMovementReportCalcProviderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/calculation/provisioncalculation/algprovider/qualifier/CBJECLMovementReportCalcProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/cdi/algprovider/EmptyJpAlgProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/ipprod/algimpl/jp/cdi/algprovider/IJpAlgProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="P:/workspaces/IP_PROD/runtime/custapi/src/main/java/com/loxon/fw/rt/presentation/dynamic/ifrseximro/calculationversion/modelsummarypage/ModelSummaryPageCustomized.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

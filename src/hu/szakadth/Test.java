@@ -1,8 +1,5 @@
 package hu.szakadth;
 
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
 /**
@@ -12,6 +9,29 @@ public class Test {
 
 
     public static void main(String[] args) {
+
+        new Test().test();
+    }
+
+    public void test() {
+        int x = 0;
+        int y = 5;
+
+        x = ++y + ++y;
+        System.out.printf("\n(++y) + (++y) = %d\n------------------", x);
+
+
+
+        int j = 0;
+        j = j++ + j;
+        System.out.println("j : " + j);
+
+        j = 0;
+        System.out.println(j++ + ++j);
+
+        j = 0;
+        System.out.println(++j + j++);
+
         Integer int1 = new Integer(1234567);
         Integer int2 = new Integer(1234568);
         if (int1 <= int2) {
@@ -21,14 +41,15 @@ public class Test {
         }
         System.out.println(int1.compareTo(int2));
 
-        int[] ints = IntStream.of(0,0,0,0).toArray();
+        int[] ints = {0,0,0,0}; //IntStream.of(0,0,0,0).toArray();
         int i = 0;
-        ints[++i] = ++i;
-        AtomicInteger count = new AtomicInteger(-1);
+        ints[++i] = i++ + ++i;
+//        AtomicInteger count = new AtomicInteger(-1);
+        Counter counter = new Counter(0);
         IntStream.of(ints).boxed().forEach(v -> {
-            System.out.println(String.format("%4d -> %4d", count.incrementAndGet(), v));
+            System.out.printf("%4d -> %4d\n", counter.inc().getValue(), v);
         });
-
+        System.out.printf("i = %4d\n\n", i);
 
         System.out.println(getInt(10));
 
@@ -38,6 +59,35 @@ public class Test {
     private static Integer getInt(int i) {
         return i > 5 ? null : new Integer(i);
 
+    }
+
+    private class Counter {
+        int c = 0;
+        int startValue = 0;
+        public Counter(int startValue) {
+            c = startValue;
+            this.startValue = startValue;
+        }
+        public int getValue() {
+            return c;
+        }
+        public Counter inc(int incValue) {
+            c += incValue;
+            return this;
+        }
+
+        public Counter inc() {
+            return inc(1);
+        }
+
+        public Counter set (int value) {
+            c = value;
+            return this;
+        }
+
+        public Counter reset () {
+            return set(startValue);
+        }
     }
 
 
