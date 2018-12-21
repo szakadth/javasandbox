@@ -1,10 +1,8 @@
 package hu.szakadth;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 /**
  * Created by bogrea on 2018.09.05..
@@ -13,6 +11,11 @@ public class Misc {
 
 
     public static void main( String[] args ) {
+
+        String s1 = "Alma %s% Körte %s% Dió";
+        String s2 = s1.replace("%s%", "1,2,3,4,5");
+        System.out.println(s2);
+
         int x = 20;
         int y = 30;
 

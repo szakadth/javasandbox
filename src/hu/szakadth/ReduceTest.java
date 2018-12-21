@@ -31,6 +31,8 @@ public class ReduceTest {
             add(10);
             add(8);
         }};
+
+
         sum = intsWithNull.stream()
                 .filter(Objects::nonNull)
                 .filter(p -> p > 5)
